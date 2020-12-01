@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div_dim{
+    height: 400px;
+    padding: 50px 0px 0px 50px;
+}
+
+/* nav bar css */
+nav{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: whitesmoke;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 18px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none; /* taskes out underlines  */
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 50%;
+    }
+}
+
+/* about me css */
+.about_me img{
+    height: 400px;
+    float: right;
+}
+
+
+/* skills css */
+.me-skills{
+    background-color: whitesmoke;
+}
+.me-skills ul{
+    display: flex;
+    justify-content: space-around;
+}
+.me-skills li{
+    list-style: none;
+}
+.me-skills img{
+    width: 70px;
+    height: 70px;
+}
+
+/* projects css */
+
+.me-projects{
+
+}
+
+/* Footer & contact */
+.fnc{
+    background-color: whitesmoke;
+    height: auto;
+}
