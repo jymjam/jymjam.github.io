@@ -15,6 +15,9 @@ body{
     font-family: cursive, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+a{
+    text-decoration: none;
+}
 /* 
 * First Row
     - Logo
@@ -58,6 +61,10 @@ body{
     height: 9em;
     width: 9em;
 }
+/* container 3 | work and skills */
+.r2Skills{
+    justify-content: center;
+}
 
 /*  */
 /*  */
@@ -75,4 +82,7 @@ body{
 .footer img{
     height: 2em;
     width: 2em;
+}
+.footer small{
+    font-size: 10px;
 }
