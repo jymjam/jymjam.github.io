@@ -9,70 +9,64 @@
       integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
   </head>
+  
   <body>
-      <!-- navigation bar -->
-    <nav className="nav-wrapper red darken-3">
-        <div class="logo">
-            <h3>My Portfolio</h3>
+    <!-- First page container -->
+    <div class="container">
+      <!--Row 1 -> logo | name | intro-->
+      <div class="row rowOne">
+        <!-- Col 1 -->
+        <div class="five columns myLogoContainer">
+          <img src="./assets/github-icon_002.png" alt="my-logo-dp">
         </div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#about">Skills</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#fnc">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- About section -->
-    <div id="about" class="about_me div_dim">
-        <div>
-            <h3>Yo! I'm Harshit</h3>
-            <p style="padding-left: 9px;">I'm an cyber security undergrad with a diverse set of working experience</p>
+        <!-- Col 2 -->
+        <div class="seven columns introContainer">
+          <h6>Yo! I'm</h6>
+          <h1 style="color: #9c5b1c;">Harshit N Kumar</h1>
+          <h5><em>I'm a Cyber security undergrad with a wide range of working experience</em></h5>
         </div>
-    </div>
+      </div>
+      <!-- Row 2 -> MISC Scroll-down -->
+      <div class="row scrollDown">
+        <img src="./assets/scrollDown-removebg-preview.png" alt="">
+      </div>
+    </div><!-- eof Container -->
 
-    <!-- Skills -->
-    <div id="skills" class="me-skills div_dim">
-        <h5>Skills</h5>
-        <hr>
-        <div>
-            <ul>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/python-icon.png" alt="python"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/js-icon.png" alt="javascript"></li>
-                <li><img src="https://cdn.iconscout.com/icon/free/png-256/c-programming-569564.png" alt="c"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/ts-icon.svg" alt="typescript"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/react-icon.png" alt="react"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/angular-icon.svg" alt="angular"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/nodejs-icon.svg" alt="nodejs"></li>
-            </ul>
-            <ul>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/git-icon.png" alt="git"></li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/93px-Font_Awesome_5_brands_github.svg.png" alt="Github"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/blender-icon.png" alt="Blender"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/unity-icon.png" alt="unity"></li>
-                <li><img src="https://shehryar.hanadigital.me/img/skills/firebase-icon.png" alt="firebase"></li>
-                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Linux"></li>
-            </ul>
+
+    <!-- Second Page container -->
+
+      <div class="container">
+        <!-- Row 1 | Projects | 3 cards-->
+        <p>some of my projects</p>
+        <div class="row rowTwo">
+          <div class="four columns card">
+            <img src="./assets/cybercrimedoodle-dark-removebg-preview.png" alt="">
+            <div>
+              <h4 style="color: #9c5b1c;">Audit tools</h4>
+              <p>Homemade auditing tools for reconaissance and enumeration </p>
+            </div>
+          </div>
+          <div class="four columns card">
+            <img src="./assets/mapsdoodle.png" alt="">
+            <div>
+              <h4 style="color: #9c5b1c;">Geo Walker</h4>
+              <p>A web app built for avid joggers to track the path they traversed around the city</p>
+            </div>
+          </div>
+          <div class="four columns card">
+            <img src="./assets/cybercrimedoodle-dark-removebg-preview.png" alt="">
+            <div>
+              <h4 style="color: #9c5b1c;">Flat tour in web VR</h4>
+              <p>Fully immersive Virtual Reality tour of a house
+                <a href="">Hosted on Glitch</a></p>
+            </div>
+          </div>
         </div>
-    </div>
-
-    <!-- Projects -->
-    <div id="Projects" class="me-projects div_dim">
-        <h5>Experience</h5>
-        <hr>
-        <div>
-        </div>
-    </div>
-
-    <!-- contact me -->
-    <div id="fnc" class="fnc div_dim">
-        <h5>Contact</h5>
-        <hr>
-        <p>Contact me on Github</p>
-    </div>
+      </div>
+    
 
   </body>
 </html>
