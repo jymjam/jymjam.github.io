@@ -62,10 +62,16 @@ a{
     width: 9em;
 }
 /* container 3 | work and skills */
-.r2Skills{
-    justify-content: center;
+.skillsLogo{
+    height: 15vh;
 }
-
+.skillsLogo img{
+    height: 4em;
+    width: 4em;
+}
+.sklbtn{
+    margin-bottom: 10px;
+}
 /*  */
 /*  */
 /*  */
