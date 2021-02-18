@@ -11,6 +11,10 @@ body{
     height: 100vh;
 }
 
+.myname{
+    font-family: cursive, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 /* 
 * First Row
     - Logo
@@ -45,6 +49,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
 }
 .card:hover{
     background-color: #383838;
@@ -54,9 +59,20 @@ body{
     width: 9em;
 }
 
+/*  */
+/*  */
+/*  */
 /* Footer container */
-.footer{
-    background-color: #292929;
-    height: 30vh;
+.footer {
+    background-color: #252525;
     color: rgb(163, 159, 159);
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    height: 2em;
+    width: 2em;
 }
