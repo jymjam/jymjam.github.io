@@ -1,14 +1,14 @@
 body{
-    /* display: block; */
+    display: block;
     height: 100vh;
-    /* margin-top: 100px; */
     background-color: #303030;
+    padding: 0;
+    margin: 0;
 }
 
-.container{
+.containerMod{
     color: rgb(163, 159, 159);
-    height: 100%;
-    flex: 100vh;
+    height: 100vh;
 }
 
 /* 
@@ -46,7 +46,17 @@ body{
     text-align: center;
     padding: 10px;
 }
+.card:hover{
+    background-color: #383838;
+}
 .card img{
     height: 9em;
     width: 9em;
+}
+
+/* Footer container */
+.footer{
+    background-color: #292929;
+    height: 30vh;
+    color: rgb(163, 159, 159);
 }
