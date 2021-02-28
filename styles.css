@@ -28,9 +28,12 @@ a{
     - Name
     - Intro
 */
+.space{
+    height: 20%;
+}
 .rowOne{
     height: 60%;
-    padding-top: 20%;
+    /* padding-top: 20%; */
 }
 .myLogoContainer{
     /* justify-content: center; */
@@ -44,8 +47,8 @@ a{
     text-align: center;
 }
 .scrollDown img{
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
 }
 
 /* 
