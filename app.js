@@ -17,36 +17,49 @@ react.addEventListener('click', () => {
     modal_bg.classList.add('modal-bg-active')
     console.log(img); // fix img 
     title.textContent = 'about react'
+    img.src = './assets/react-icon.png'
+
     desc.textContent = 'been using react native a lot lately'
 })
 
 python.addEventListener('click', () => {
     modal_bg.classList.add('modal-bg-active')
     title.textContent = 'about python'
+    img.src = 'assets/python-icon.png'
+
     desc.textContent = 'using python'
+
 })
 
 nodejs.addEventListener('click', () => {
     modal_bg.classList.add('modal-bg-active')
     title.textContent = 'about nodejs'
+    img.src = 'assets/nodejs-icon.svg'
+
     desc.textContent = 'using nodejs all day everyday'
 })
 
 git.addEventListener('click', () => {
     modal_bg.classList.add('modal-bg-active')
     title.textContent = 'about git'
+    img.src = 'assets/git-icon.png'
+
     desc.textContent = 'using nodejs all the time'
 })
 
 clang.addEventListener('click', () => {
     modal_bg.classList.add('modal-bg-active')
     title.textContent = 'about clang'
+    img.src = 'assets/clang-removebg-preview.png'
+
     desc.textContent = 'using nodejs all the time'
 })
 
 linux.addEventListener('click', () => {
     modal_bg.classList.add('modal-bg-active')
     title.textContent = 'about linux'
+    img.src = 'assets/linux-logo.png'
+
     desc.textContent = 'using nodejs all the time'
 })
 
